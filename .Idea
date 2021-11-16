@@ -1,0 +1,31 @@
+** Application Assignment 1 Part 2 **
+
+ ** To Do List **
+ 
+ public class TodoList {
+
+    public static void main(String[] args) {
+        List<Model> models = new ArrayList<>();
+
+        for(Model model : models) {
+            System.out.println(model.getItem());
+        }
+
+        for(int i = 0; i < models.size(); i++) {
+            System.out.println(models.get(i).getItem());
+        }
+    }
+}
+
+class Model {
+
+    private String item;
+
+    public String getItem() {
+        return item;
+    }
+
+    public void setItem(String item) {
+        this.item = item;
+    }
+}
