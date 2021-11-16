@@ -1,0 +1,14 @@
+** Application Assignment 1 Part 2 **
+ 
+ ** To Do List **
+ 
+ plugins {
+    id 'java'
+    id 'idea'
+}
+
+ repositories {
+    umlClassDiagrams() 
+    guiMockups() 
+    pseudocodeElements()
+}
